@@ -1,0 +1,23 @@
+.client-div {
+    cursor: pointer;
+    margin: 5px 0px 5px 0px;
+}
+
+#clients, #chat, #server-messages, #empty-col {
+    height: 400px;
+    overflow-y: scroll;
+    word-break: break-word;
+    margin: 0px 10px 20px 10px;
+}
+
+#chat {
+    width: auto;
+}
+
+.color-dot {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
